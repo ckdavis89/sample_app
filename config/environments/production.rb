@@ -2,8 +2,6 @@ require "active_support/core_ext/integer/time"
 
 Rails.application.configure do
   
-  host = 'https://pure-earth-20099.herokuapp.com/'
-  
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
@@ -71,7 +69,7 @@ Rails.application.configure do
   # Set this to true and configure the email server for immediate delivery to raise delivery errors.
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.delivery_method = :smtp
-  host = 'https://git.heroku.com/pure-earth-20099.git'
+  host = 'https://pure-earth-20099.herokuapp.com/'
   config.action_mailer.default_url_options = { host: host }
   ActionMailer::Base.smtp_settings = {
     :address        => 'smtp.sendgrid.net',
