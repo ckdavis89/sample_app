@@ -1,5 +1,8 @@
 # Ruby on Rails Tutorial sample application
 
+Heroku app:
+https://pure-earth-20099.herokuapp.com/
+
 ## Reference implementation
 
 This is the reference implementation of the sample application from
